@@ -17,15 +17,14 @@ public class InputServer : MonoBehaviour
         httpServer = new MyHttpServer(2054, this);
         Thread thread = new Thread(new ThreadStart(httpServer.listen));
         thread.Start();
-        Debug.Log("begin");
     }
 
-    public string GetValue(string inVaule)
+    public void GetValue(string inVaule)
     {
-        Debug.Log(inVaule);
-
-        return "";
-        //分析，传递给其他文件
-        //do it
+        if (inVaule.Length >= 2)
+        {
+            if (inVaule[0] == '/' && inVaule[1] == '?')
+                Debug.Log(inVaule);
+        }
     }
 }

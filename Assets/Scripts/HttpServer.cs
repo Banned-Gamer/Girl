@@ -3,6 +3,7 @@ using System.IO;
 using System.Net.Sockets;
 using System.Threading;
 using System.Collections;
+using UnityEngine;
 
 public class HttpProcessor
 {
