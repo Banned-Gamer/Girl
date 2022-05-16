@@ -231,8 +231,7 @@ public class MyHttpServer : HttpServer
 {
     private InputServer gameServer;
 
-    public MyHttpServer(int port, InputServer inputServer)
-        : base(port, inputServer)
+    public MyHttpServer(int port, InputServer inputServer) : base(port, inputServer)
     {
         gameServer = inputServer;
     }

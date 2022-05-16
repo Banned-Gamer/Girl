@@ -1,0 +1,55 @@
+
+erwo1.png
+size: 1742,1641
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left
+  rotate: true
+  xy: 640, 256
+  size: 325, 733
+  orig: 330, 733
+  offset: 5, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 1375, 94
+  size: 322, 645
+  orig: 332, 652
+  offset: 1, 1
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 579, 636
+  orig: 594, 642
+  offset: 1, 6
+  index: -1
+head
+  rotate: false
+  xy: 2, 583
+  size: 1113, 1056
+  orig: 1113, 1056
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: true
+  xy: 640, 20
+  size: 234, 634
+  orig: 293, 668
+  offset: 14, 7
+  index: -1
+leg-right
+  rotate: true
+  xy: 1117, 741
+  size: 225, 623
+  orig: 231, 627
+  offset: 0, 2
+  index: -1
+skiirt
+  rotate: true
+  xy: 1117, 968
+  size: 671, 498
+  orig: 677, 526
+  offset: 3, 2
+  index: -1
