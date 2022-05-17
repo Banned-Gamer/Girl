@@ -36,12 +36,16 @@ public class InputServer : MonoBehaviour
 
                 if (words[0] == "left")
                 {
-                    playerMovement.Move(-1);
+                    playerMovement.current = 0;
                 }
 
-                if (words[0] == "right")
+                else if (words[0] == "right")
                 {
-                    playerMovement.Move(1);
+                    playerMovement.current = 1;
+                }
+                else
+                {
+                    playerMovement.current = -1;
                 }
             }
         }
