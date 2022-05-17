@@ -35,7 +35,7 @@ public class Movement : MonoBehaviour
             Move(1);
         }
 
-        if (current == 0)
+        else if (current == 0)
         {
             //nowText.text = "left";
             Move(-1);
@@ -49,7 +49,6 @@ public class Movement : MonoBehaviour
 
     public void Move(float direction)
     {
-        Debug.Log(direction);
 
         Vector3 myDirection = new Vector3(direction * 0.15f, 0.15f, 1);
 
@@ -64,6 +63,7 @@ public class Movement : MonoBehaviour
 
     public void StopMove()
     {
+        Debug.Log("stop");
         _myAnimator.SetBool(_moveCommand, false);
         _myRigidbody2D.velocity = Vector2.zero;
     }
